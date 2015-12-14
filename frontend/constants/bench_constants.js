@@ -1,0 +1,7 @@
+var BenchConstants = {
+  BENCHES_RECEIVED: "BENCHES_RECEIVED",
+  REMOVE_BENCHES: "REMOVE_BENCHES",
+  BENCH_RECEIVED: "BENCH_RECEIVED"
+};
+
+module.exports = BenchConstants;
