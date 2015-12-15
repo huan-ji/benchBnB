@@ -22,6 +22,8 @@ var BenchShow = React.createClass({
         Description:{this.state.bench.description}
         <br/>
         Seating:{this.state.bench.seating}
+        <br/>
+        <img src={this.state.bench.image_url}></img>
         <Reviews bench={this.state.bench}/>
         <div>
           <ReviewForm bench={this.state.bench}/>

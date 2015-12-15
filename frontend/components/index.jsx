@@ -30,7 +30,15 @@ var Index = React.createClass({
   render: function () {
     // debugger;
     var benches = this.state.benches.map(function (bench) {
-      return <li>Description: {bench.description}<br/>Average Score: {bench.average_score}</li>;
+      return (
+        <li>
+          Description: {bench.description}
+          <br/>
+          Average Score: {bench.average_score}
+          <br/>
+          <img src={bench.image_url}/>
+        </li>
+      )
     });
     return (
       <ul>
